@@ -63,12 +63,15 @@
     <Error Condition="!Exists('..\packages\Accord.3.4.0\build\Accord.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Accord.3.4.0\build\Accord.targets'))" />
   </Target>
   <ItemGroup>
-    <Compile Include="AssemblyInfo.fs" />
     <None Include="App.config" />
     <Content Include="packages.config" />
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="MutableTypes.fs" />
     <Compile Include="Types.fs" />
     <Compile Include="DataExtraction.fs" />
     <Compile Include="MatrixFunctions.fs" />
+    <Compile Include="ModelFunctions.fs" />
+    <Compile Include="BatchFunctions.fs" />
     <Compile Include="NetRun.fs" />
     <Compile Include="Training.fs" />
     <Compile Include="Program.fs" />
@@ -99,6 +102,8 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Numerics" />
   </ItemGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
