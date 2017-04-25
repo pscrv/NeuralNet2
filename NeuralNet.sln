@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNetTests", "FNetTests\FNet
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FNet", "FNet\FNet.fsproj", "{9CFDA99F-D37D-4258-8CC1-F7045E1ADF94}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FshNet", "FshNet\FshNet.fsproj", "{119724A1-336B-448D-B859-EF45638ADF58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9CFDA99F-D37D-4258-8CC1-F7045E1ADF94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CFDA99F-D37D-4258-8CC1-F7045E1ADF94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CFDA99F-D37D-4258-8CC1-F7045E1ADF94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{119724A1-336B-448D-B859-EF45638ADF58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119724A1-336B-448D-B859-EF45638ADF58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119724A1-336B-448D-B859-EF45638ADF58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119724A1-336B-448D-B859-EF45638ADF58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

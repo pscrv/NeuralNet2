@@ -1,4 +1,4 @@
-﻿namespace fsh_net.AssemblyInfo
+﻿namespace FshNet.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[<assembly: AssemblyTitle("fsh_net")>]
+[<assembly: AssemblyTitle("FshNet")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
-[<assembly: AssemblyProduct("fsh_net")>]
+[<assembly: AssemblyProduct("FshNet")>]
 [<assembly: AssemblyCopyright("Copyright ©  2017")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[<assembly: Guid("9ea4832a-babc-4e5c-b9aa-f3080158b3c5")>]
+[<assembly: Guid("119724a1-336b-448d-b859-ef45638adf58")>]
 
 // Version information for an assembly consists of the following four values:
 // 
