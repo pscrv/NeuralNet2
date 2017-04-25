@@ -150,7 +150,7 @@ namespace FNetTests
 
             MutableTypes.Model model = new MutableTypes.Model(dummy, dummy);
 
-            double loss = Training._getLoss(classifier_input, target, model, 0.0);
+            double loss = Training._calculateLoss(classifier_input, model, target, 0.0);
 
             double sm1 = Math.Exp(1);
             double sm2 = Math.Exp(0);
@@ -158,13 +158,13 @@ namespace FNetTests
             double sm1N = sm1 / N;
             double sm2N = sm2 / N;
 
-            double sm1N_log = - Math.Log(sm1N);
-            double sm2N_log = - Math.Log(sm2N);
+            double sm1N_log = -Math.Log(sm1N);
+            double sm2N_log = -Math.Log(sm2N);
             double sm1N_log_target = sm1N_log * 0.5;
             double sm2N_log_target = sm2N_log * 0.5;
             double sum = sm1N_log_target + sm2N_log_target;
 
-            Assert.AreEqual(sum, loss, 0.00000000001);            
+            Assert.AreEqual(sum, loss, 0.00000000001);
         }
 
 
@@ -185,7 +185,7 @@ namespace FNetTests
 
             MutableTypes.Model model = new MutableTypes.Model(dummy, dummy);
 
-            double loss = Training._getLoss(classifier_input, target, model, 0.1);
+            double loss = Training._calculateLoss(classifier_input, model, target, 0.1);
 
             double sm1 = Math.Exp(1);
             double sm2 = Math.Exp(0.5);

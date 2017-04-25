@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsh_net", "fsh_net\fsh_net.fsproj", "{9EA4832A-BABC-4E5C-B9AA-F3080158B3C5}"
-EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tutorial", "Tutorial\Tutorial.fsproj", "{2C542B30-59C2-451F-AA19-DB4FDEB801DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNetTests", "FNetTests\FNetTests.csproj", "{F6DE0605-EDC4-4CE1-BE61-2F07B2F296CE}"
@@ -17,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9EA4832A-BABC-4E5C-B9AA-F3080158B3C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EA4832A-BABC-4E5C-B9AA-F3080158B3C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9EA4832A-BABC-4E5C-B9AA-F3080158B3C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9EA4832A-BABC-4E5C-B9AA-F3080158B3C5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C542B30-59C2-451F-AA19-DB4FDEB801DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C542B30-59C2-451F-AA19-DB4FDEB801DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C542B30-59C2-451F-AA19-DB4FDEB801DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
